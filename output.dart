@@ -24,7 +24,7 @@
 
 
 // patient form ex
-// import 'dart:io';
+import 'dart:io';
 
 // void main() {
 //   print('===== PATIENT REGISTRATION FORM =====');
@@ -100,17 +100,44 @@
 //   }
 // }
 
-import 'dart:io';
-void main() {
-  int marks = 75;
+// import 'dart:io';
+// void main() {
+//   int marks = 75;
 
-  if (marks >= 90) {
-    print("Grade A");
-  } else if (marks >= 75) {
-    print("Grade B");
-  } else if (marks >= 50) {
-    print("Grade C");
+//   if (marks >= 90) {
+//     print("Grade A");
+//   } else if (marks >= 75) {
+//     print("Grade B");
+//   } else if (marks >= 50) {
+//     print("Grade C");
+//   } else {
+//     print("Fail");
+//   }
+// }
+
+// void main()
+// {
+//   int gfg = 10;
+//   if (gfg > 9) {
+//     gfg++;
+//     if (gfg < 10) {
+//       print("condition 2 is true");
+//     }
+//     else{
+//       print("All the condtion are false");
+//     }
+//   }
+// }
+
+void main(){
+  int x = 7, y = 8;
+
+  if ((++x > y--) && (++x  < ++y)) {
+    print("Condition true");
   } else {
-    print("Fail");
+    print("Conditon false");
   }
+  print(x);
+  print(y);
 }
+
