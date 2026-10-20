@@ -24,7 +24,7 @@
 
 
 // patient form ex
-import 'dart:io';
+// import 'dart:io';
 
 // void main() {
 //   print('===== PATIENT REGISTRATION FORM =====');
@@ -129,15 +129,57 @@ import 'dart:io';
 //   }
 // }
 
-void main(){
-  int x = 7, y = 8;
+// void main(){
+//   int x = 7, y = 8;
 
-  if ((++x > y--) && (++x  < ++y)) {
-    print("Condition true");
-  } else {
-    print("Conditon false");
-  }
-  print(x);
-  print(y);
-}
+//   if ((++x > y--) && (++x  < ++y)) {
+//     print("Condition true");
+//   } else {
+//     print("Conditon false");
+//   }
+//   print(x);
+//   print(y);
+// }
+// post incrment
 
+// void main() {
+//   int x = 5;
+//   int y = 10;
+
+//   if (x++ < y++) {
+//     print("True");
+//   } else {
+//     print("False");
+//   }
+
+//   print(x);
+//   print(y);
+// }
+
+// switch case
+
+// void main(){
+
+//   int gfg = 5;
+//   switch(gfg)
+//   {
+//     case 1: {
+//       print("Geeks forGeeks number 1");
+//     }break;
+//      case 2 : {
+//       print("Geeks forGeeks number 2");
+//     }break;
+//     case 3 : {
+//       print("Geeks forGeeks number 3");
+//     } break; 
+//     case 4 : {
+//        print("Geeks forGeeks number 4");
+//     }
+//     default: {
+//        print("this is defualt case");
+//     } break;
+//   }
+// }
+
+
+// Assignment

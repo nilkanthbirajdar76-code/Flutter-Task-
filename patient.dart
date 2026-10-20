@@ -1,23 +1,23 @@
 
  import 'dart:io';
 
-// void main() {
-//   print("==== PATIENT REGSTRATION FORM ====");
+void main() {
+  print("==== PATIENT REGSTRATION FORM ====");
 
-//   print ('Patient Name: ');
-//   String name = stdin.readLineSync()!;
+  print ('Patient Name: ');
+  String name = stdin.readLineSync()!;
 
-//   print('Age:');
-//   int age = int.parse(stdin.readLineSync()!);
+  print('Age:');
+  int age = int.parse(stdin.readLineSync()!);
 
-// print('Gender: ');
-// String gender = stdin.readLineSync()!;
+print('Gender: ');
+String gender = stdin.readLineSync()!;
 
-// print('Phone Number:  ');
-// String phone = stdin.readLineSync()!;
+print('Phone Number:  ');
+String phone = stdin.readLineSync()!;
 
 
-// }
+}
 
 
 
@@ -41,3 +41,16 @@ void main() {
     print("Grade B");
   }
 }
+
+
+void main() {
+  int num = 7;
+
+  if (num % 2 == 0) {
+    print("Even");
+  }else {
+    print("odd");
+  }
+}
+
+
